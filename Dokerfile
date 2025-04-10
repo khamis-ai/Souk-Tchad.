@@ -1,20 +1,20 @@
-  # Dockerfile pour l'application Souk-Tchad 
+  # Dockerfile for the Chad Ecommerce App
   FROM node:18
 
-  # Définir le répertoire de travail
+  # Set the working directory
   WORKDIR /app
 
-  # Copier les fichiers de dépendances
+  # Copy dependency files
   COPY package.json package-lock.json ./
 
-  # Installer les dépendances
+  # Install dependencies
   RUN npm install
 
-  # Copier le reste du code
+  # Copy the rest of the code
   COPY . .
 
-  # Exposer le port
+  # Expose the port
   EXPOSE 3000
 
-  # Lancer l'application
+  # Start the application
   CMD ["npm", "start"]
