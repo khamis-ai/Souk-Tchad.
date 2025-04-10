@@ -1,4 +1,4 @@
-  # Makefile pour l'application Souk-Tchad 
+  # Makefile for the Souk-Tchad App
   .PHONY: test build start
 
   test:
@@ -11,7 +11,7 @@
     npm start
 
   docker-build:
-    docker build -t tchad-ecommerce .
+    docker build -t chad-ecommerce .
 
   docker-run:
-    docker run -p 3000:3000 tchad-ecommerce
+    docker run -p 3000:3000 chad-ecommerce
