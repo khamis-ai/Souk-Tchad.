@@ -1,14 +1,14 @@
   # Changelog
 
   ## [1.0.0] - 2025-04-10
-  ### Ajouté
-  - Initialisation du projet.
-  - Intégration de React Native pour mobile et React.js pour web.
-  - Ajout de l'intégration WhatsApp Business.
-  - Création de la barre de recherche et du classement par catégorie.
+  ### Added
+  - Project initialization.
+  - Integration of React Native for mobile and React.js for web.
+  - Added WhatsApp Business integration.
+  - Creation of the search bar and category ranking.
 
-  ### Modifié
-  - Amélioration de l'interface utilisateur avec TailwindCSS.
+  ### Modified
+  - Improved user interface with TailwindCSS.
 
-  ### Supprimé
-  - Aucune suppression pour le moment.
+  ### Removed
+  - No removals at this time.
