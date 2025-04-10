@@ -1,7 +1,7 @@
 {
-  "name": "mon-application",
+  "name": Souk-Tchad 
   "version": "1.0.0",
-  "description": "Une application web moderne pour gérer des tâches et des projets.",
+  "description": "Une application web moderne pour gérer des tâches et des projets.Je souhaite créer une application mobile (Android/iOS) et web pour mon pays, le Tchad, qui fonctionne comme une plateforme de vente en ligne similaire à Amazon ou AliExpress, mais avec des fonctionnalités personnalisées. L'application doit permettre aux utilisateurs de parcourir mes produits affichés sous forme de publicités avec des photos et des vidéos. Lorsqu'un client ouvre l'application, les produits doivent s'afficher immédiatement."
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
