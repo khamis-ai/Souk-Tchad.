@@ -1,81 +1,29 @@
-# Projet : Application de Vente en Ligne pour le Tchad avec Intégration WhatsApp
+#Designed to create a mobile application (Android/iOS) and web platform to sell my products online in Chad. The application should display products as advertisements with photos and videos. When a customer opens the application, the products should be immediately visible.
 
-## Description
-Développement d'une application mobile (Android/iOS) et web pour la vente de produits au Tchad. L'application permet aux clients de découvrir les produits sous forme de publicités avec des photos et vidéos, et de contacter directement le vendeur via WhatsApp.
+**Main Requirements**:  
+1. **No Mandatory Account Creation**: Customers should not be required to create an account to use the application.  
+2. **No Integrated Payment System**: Customers should not be required to pay through the application.  
+3. **WhatsApp Integration**:  
+   - A green "Contact via WhatsApp" button should be displayed under each product.  
+   - When the customer clicks this button, they are redirected to WhatsApp to chat with me.  
+   - A photo and the name of the product should be automatically sent in the WhatsApp message if the customer has the application and a WhatsApp account.  
+   - The product price should also be displayed.  
+4. **Search Bar**: Customers should be able to search for specific products.  
+5. **Product Categorization**: Products should be sorted by category.  
+6. **Private Interface**: A private interface should be available only to me, where I can create folders for my products.  
 
----
+**Recommended Technologies**:  
+- **Frontend**: React Native for the mobile application, React.js for the web version.  
+- **Backend**: Node.js with Express for managing products and categories.  
+- **Database**: MongoDB to store product information.  
+- **WhatsApp Integration**: Use the WhatsApp Business API for redirection and automatic message sending.  
 
-## Fonctionnalités Clés
+**Additional Features**:  
+- **Product Gallery**: Products should be displayed in a grid or list format, with images and videos.  
+- **Filters**: Customers should be able to filter products by category, price, etc.  
+- **Admin Interface**: A private interface to manage products (add, delete, modify).  
 
-1. **Affichage des Produits**  
-   - Les produits sont visibles dès l'ouverture de l'application.  
-   - Chaque produit inclut :
-     - Photo
-     - Vidéo
-     - Nom
-     - Prix  
-
-2. **Intégration WhatsApp**  
-   - Un bouton vert "Entrer" est affiché sous chaque produit.  
-   - En cliquant, le client est redirigé vers WhatsApp pour discuter avec le vendeur.  
-   - Automatiquement, une photo du produit avec son nom et son prix est envoyée au vendeur si le client utilise WhatsApp.  
-
-3. **Barre de Recherche**  
-   - Les clients peuvent effectuer des recherches sur des produits spécifiques.  
-
-4. **Classement par Catégorie**  
-   - Les produits sont organisés par catégorie pour une navigation simplifiée.  
-
-5. **Interface Privée**  
-   - Une interface sécurisée pour le vendeur, permettant de :  
-     - Ajouter des produits  
-     - Modifier des informations produit  
-     - Supprimer des produits  
-
----
-
-## Technologies Recommandées
-
-### Frontend
-- **Mobile :** React Native  
-- **Web :** React.js  
-
-### Backend
-- **Serveur :** Node.js avec Express  
-
-### Base de Données
-- **MongoDB**  
-
-### Intégration WhatsApp
-- **API :** WhatsApp Business API  
-
----
-
-## Étapes du Développement
-
-1. **Phase de Planification**  
-   - Définir les cas d'utilisation et les maquettes des interfaces utilisateur.  
-   - Configurer l'environnement de développement.  
-
-2. **Développement Frontend**  
-   - Créer les interfaces utilisateur pour mobile et web.  
-   - Implémenter l'affichage des produits et la barre de recherche.  
-
-3. **Développement Backend**  
-   - Développer les API REST pour gérer les produits (CRUD).  
-   - Configurer l'intégration de l'API WhatsApp Business.  
-
-4. **Configuration de la Base de Données**  
-   - Modéliser les collections MongoDB pour les produits et les catégories.  
-   - Ajouter un mécanisme d'authentification pour l'interface privée.  
-
-5. **Tests et Déploiement**  
-   - Tester les fonctionnalités sur mobile et web.  
-   - Déployer l'application sur les plateformes nécessaires (Play Store, App Store, hébergement web).  
-
----
-
-## Livrables
-- Application mobile Android/iOS.  
-- Application web fonctionnelle.  
-- Documentation technique et utilisateur.  
+**Additional Instructions**:  
+- The application should be simple, intuitive, and quick to load.  
+- The design should be modern and tailored to Chadian users.  
+- Ensure the application is optimized for slow internet connections.
