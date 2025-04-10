@@ -1,4 +1,4 @@
-  # Fichier requirements.txt pour les dépendances Python
+  # requirements.txt file for Python dependencies
   Flask==3.0.0
   requests==2.31.0
   pytest==7.4.0
