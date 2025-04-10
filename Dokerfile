@@ -1,4 +1,4 @@
-  # Dockerfile for the Chad Ecommerce App
+  # Dockerfile for the Souk-Tchad App
   FROM node:18
 
   # Set the working directory
